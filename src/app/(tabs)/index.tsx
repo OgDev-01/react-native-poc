@@ -24,8 +24,6 @@ export default function TabOneScreen() {
     })();
   }, []);
 
-  console.log(JSON.stringify(location));
-
   return (
     <View className="flex-1 justify-center items-center">
       <Text>{t("Hello")}</Text>
